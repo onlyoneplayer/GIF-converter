@@ -5,6 +5,8 @@ import os
 
 root = tk.Tk()
 root.title("GIF convertor")
+root.geometry("440x50")
+root.resizable(0, 0)
 
 #Functions
 def choosing_file():
